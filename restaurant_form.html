@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>List Your Restaurant</title>
+  <link rel="stylesheet" href="restaurant_form.css">
+</head>
+<body>
+  <div id="img-background"><img id="background" src="Background2.jpg" alt="This is an image">
+  </div>
+  <div id="hero"><img width="69" height="69" src="https://img.icons8.com/external-smashingstocks-glyph-smashing-stocks/66/ffffff/external-food-app-shopping-and-ecommerce-smashingstocks-glyph-smashing-stocks.png" alt="external-food-app-shopping-and-ecommerce-smashingstocks-glyph-smashing-stocks"/>&nbsp;NaviEat</div>
+  <div class="form-container">
+    <h2 style="font-weight: bolder;">List Your Restaurant</h2>
+    <form id="restaurantForm">
+      <label for="name">Your Restaurant Name :-</label>
+      <input type="text" id="restaurantName" placeholder="Restaurant Name" required>
+      <label for="name">Address of Your Restaurant :-</label>
+      <input type="text" id="restaurantAddress" placeholder="Restaurant Address" required>
+      <label for="name">Restaurant Phone Number :-</label>
+      <input type="text" id="restaurantPhone" placeholder="Phone Number" required>
+      <label for="name">Cover image of Restaurant :-</label>
+      <input type="url" id="restaurantImage" placeholder="Image URL" required>
+      <label for="name">Write something About Restaurant :-</label>
+      <textarea id="restaurantDescription" rows="3" placeholder="Restaurant Description" required></textarea>
+      <label for="name">Paste link of Restaurant Menu :-</label>
+      <input type="text" id="restaurantmenu" placeholder="Enter link of menu" required>
+      <label for="name">Paste link of Restaurant Location :-</label>
+      <input type="text" name="location" id="restaurantlocation" placeholder="Enter Location URL" required>
+      <button type="submit">Submit</button>
+    </form>
+  </div>
+  <script src="restaurant_form.js"></script>
+</body>
+</html>
