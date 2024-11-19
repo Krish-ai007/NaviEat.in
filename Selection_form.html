@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="selection_form.css">
+</head>
+<body>
+    <div id="img-background"><img id="background" src="background1.jpg" alt="This is an image">
+    </div>
+    <div class="form-container">
+        <div id="hero">
+            <img width="69" height="69" src="https://img.icons8.com/external-smashingstocks-glyph-smashing-stocks/66/ffffff/external-food-app-shopping-and-ecommerce-smashingstocks-glyph-smashing-stocks.png" alt="external-food-app-shopping-and-ecommerce-smashingstocks-glyph-smashing-stocks"/>&nbsp;NaviEat
+        </div>
+        <fieldset>
+            <form id="foodSelectionForm">
+                <h2>Select Food Item to Add a Listing</h2>
+                <label for="foodItem">Choose Food Item:</label>
+                <select id="foodItem" required>
+                    <option value="" disabled selected>Select a Food Item</option>
+                    <option value="pizza" id="pizza">Pizza</option>
+                    <option value="burger" id="burger">Burger</option>
+                    <option value="panipuri" id="panipuri">Pani Puri</option>
+                    <option value="chaat" id="chaat">Chaat</option>
+                    <option value="chinese" id="chinese">Chinese</option>
+                    <option value="jalebi" id="jalebi">Jalebi</option>
+                    <option value="paneertikka" id="paneertikka">Paneer Tikka</option>
+                    <option value="dosa" id="dosa">Dosa</option>
+                </select><br><br><br>
+                <button type="submit">Go to Form</button>
+            </form>
+        </fieldset>
+    </div>
+    <script src="selection_form.js"></script>
+</body>
+</html>
